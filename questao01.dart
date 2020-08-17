@@ -5,11 +5,11 @@ import 'dart:math';
 main() {
   print( 'Progama para encontrar as raizes de uma equacao do 2o grau.');
   print('Informe o coeficiente "a":');
-  var strA = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
+  String strA = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
   print('Informe o coeficiente "b":');
-  var strB = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
+  String strB = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
   print('Informe o coeficiente "c":');
-  var strC = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
+  String strC = stdin.readLineSync(encoding: Encoding.getByName('utf-8'));
   double a = double.parse(strA);
   double b = double.parse(strB);
   double c = double.parse(strC);
