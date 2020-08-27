@@ -1,3 +1,5 @@
+//operações matemáticas com 2 valores
+
 main() {
   double mutiplicar, somar, dividir, subtrair;
   double a = 5;

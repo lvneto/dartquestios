@@ -1,4 +1,7 @@
+//Trocar valores de variável 
+
 main() {
+ 
   int a, b, temp;
 
   a = 999;

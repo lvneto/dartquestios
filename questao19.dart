@@ -1,3 +1,5 @@
+//reajuste salarial, somar salário com reajuste
+
 main() {
   double salario = 1000.0;
   double reajuste;

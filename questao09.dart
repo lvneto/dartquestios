@@ -1,3 +1,5 @@
+//Encontrar a quantidade de mútiplos de 3 e de 5 que não sejam multiplos de 15
+
 main() {
   num resultado = 0;
   for (num r = 1; r < 1001; r++) {

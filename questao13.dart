@@ -1,3 +1,5 @@
+//Sucessor e anterior de qualquer número
+
 main() {
   int resultadoa, resultadob, sucessor, antecessor;
   antecessor = 5;

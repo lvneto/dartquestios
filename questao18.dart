@@ -1,3 +1,5 @@
+//juros de 4% durante 4 meses
+
 main() {
   double taxa, juros, capital = 16000.0, periodo = 04.0;
 
