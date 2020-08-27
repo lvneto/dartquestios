@@ -5,7 +5,7 @@ main() {
   print('Progama para encontrar as raizes de uma equacao do 2o grau.');
   print('Informe o coeficiente "a":');
   String strA = stdin.readLineSync();
-  print('Informe o coeficiente "b":'); 
+  print('Informe o coeficiente "b":');
   String strB = stdin.readLineSync();
   print('Informe o coeficiente "c":');
   String strC = stdin.readLineSync();
