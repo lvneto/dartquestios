@@ -15,7 +15,7 @@ main() {
   double b = double.parse(strB);
   double c = double.parse(strC);
   double delta = b * b - 4 * a * c;
-  if (delta < 0) {
+  if (delta <= 0) {
     print('delta menor que zero; nao existem raizes reais.');
   } else {
     double x1 = (-b - sqrt(delta)) / (2 * a);
