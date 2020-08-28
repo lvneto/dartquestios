@@ -2,10 +2,12 @@
 
 main() {
   double taxa, juros, capital = 16000.0, periodo = 04.0;
+  // declaração de valores
 
   taxa = (capital * 04) / 100;
+  // calcula o valor da taxa
 
-  juros = taxa * periodo;
+  juros = taxa * periodo; //calcula o juros pelo tempo
 
-  print(juros);
+  print(juros); //exibe o juros
 }

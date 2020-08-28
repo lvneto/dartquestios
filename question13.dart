@@ -1,14 +1,12 @@
-//Sucessor e anterior de qualquer número
+//Sucessor e anterior de um número qualquer
 
 main() {
-  int resultadoa, resultadob, sucessor, antecessor;
-  antecessor = 5;
-  resultadoa = antecessor - 1;
+  int resultadoa, resultadob, numero; //declara as variáveis
+  numero = 5;
+  resultadoa = numero - 1; // subtrai uma unidade
 
-  sucessor = 10;
-
-  resultadob = sucessor + 1;
+  resultadob = numero + 1; // soma uma unidade
 
   print(resultadoa);
-  print(resultadob);
+  print(resultadob); //mostra os resultados
 }

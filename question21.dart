@@ -1,7 +1,6 @@
 //Identificar número par ou impar
 
 import 'dart:io';
-import 'dart:math';
 
 main() {
   print('Insira um número: ');

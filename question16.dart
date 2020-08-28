@@ -3,7 +3,7 @@
 main() {
   double mutiplicar, somar, dividir, subtrair;
   double a = 5;
-  double b = 10;
+  double b = 10; //recebe os valores de forma estática
 
   mutiplicar = a * b;
 
@@ -11,7 +11,7 @@ main() {
 
   dividir = a / b;
 
-  subtrair = a - b;
+  subtrair = a - b; // realiza as operações
 
-  print('$mutiplicar $somar $dividir $subtrair');
+  print('$mutiplicar $somar $dividir $subtrair'); //mostra o resultado
 }
