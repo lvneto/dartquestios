@@ -9,9 +9,10 @@ main() {
     while (numero != 0) {
       //enquanto o numero n for diferente de 0
       soma += numero % 10;
-      // faça
+      // faça a divisão do número por 10 para
 
       numero = (numero / 10).toInt();
+      //resultado precisa ser convertido para inteiro para ser arredondado
     }
     return soma;
   }
