@@ -1,6 +1,6 @@
 //Calcular fatorial
 
-import 'dart:io';
+import 'dart:io'; //biblioteca para entrada e saída de dados
 
 num f(num n) {
   if (n == 0) {
